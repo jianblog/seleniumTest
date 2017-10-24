@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//framework/base_page.py=utf-8
+encoding//framework/logger.py=utf-8
+encoding//pageobjects/jcj_page.py=utf-8
+encoding//pageobjects/public.py=utf-8
+encoding//pageobjects/zhuce_page.py=utf-8
+encoding//testsuits/TestRunner.py=utf-8
+encoding//testsuits/test_int.py=utf-8
+encoding//testsuits/test_int01.py=utf-8
+encoding//testsuits/test_int02.py=utf-8
+encoding//testsuits/test_login.py=utf-8

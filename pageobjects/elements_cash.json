@@ -1,0 +1,67 @@
+{   
+  "link_getcash": {
+    "comment": "提现链接",
+    "type": "xpath",
+    "value": ".//*[@id='toMoneyOther']/table[1]/tbody/tr/td[2]/a"
+  },
+  "text_cash_available": {
+    "comment": "可用余额文本",
+    "type": "xpath",
+    "value": ".//*[@id='usableMoneys']"
+  },  
+  "input_getcash_money": {
+    "comment": "输入框-提现金额",
+    "type": "xpath",
+    "value": ".//*[@id='withdr']"
+  },              
+  "message_cash_warn": {
+    "comment": "文本-金额提示",
+    "type": "xpath",
+    "value": ".//*[@id='cashmsg']"
+  },
+  "input_sms_code1": {
+    "输入框-短信验证码",
+    "type": "xpath",
+    "value": ".//*[@id='tab']/div/div[1]/table/tbody/tr[7]/td[2]/input[2]"
+  },              
+  "button_get_sms1": {
+    "comment": "按钮-获取验证码",
+    "type": "xpath",
+    "value": ".//*[@id='verify_2']"
+  },
+  "message_verify_sms": {
+    "comment": "短信验证码验证消息",
+    "type": "xpath",
+    "value": ".//*[@id='tab']/div/div[1]/table/tbody/tr[7]/td[2]/p"
+  },
+  "button_get_cash": {
+    "comment": "按钮-提现",
+    "type": "xpath",
+    "value": ".//*[@id='tab']/div/div[1]"
+  },
+  "input_pay_code": {
+    "comment": "输入框-支付密码",
+    "type": "xpath",
+    "value": ".//*[@id='web500003_password']"
+  },
+  "input_sms_code2": {
+    "comment": "输入框-短信验证码",
+    "type": "xpath",
+    "value": ".//*[@id='web500003_yzm']"
+  },
+  "button_get_sms2": {
+    "comment": "按钮-获取验证码",
+    "type": "xpath",
+    "value": ".//*[@id='web500003_yzm']"
+  },
+  "button_cash_confirm": {
+    "comment": "按钮-提现确认",
+    "type": "xpath",
+    "value": ".//*[@id='queren']/a"
+  }
+  "message_getcash_ok": {
+    "comment": "消息-提现成功",
+    "type": "xpath",
+    "value": ".//*[@id='result']"
+  }
+}

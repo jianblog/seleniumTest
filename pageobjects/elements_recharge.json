@@ -1,0 +1,58 @@
+{
+    "link_recharge": {
+      "comment": "充值",
+      "type": "xpath",
+      "value": ".//*[@id='toMoneyOther']/table[1]/tbody/tr/td[1]/a"
+    },
+    "link_withdraw": {
+      "comment": "提现", 
+      "type": "xpath",
+      "value": ".//*[@id='toMoneyOther']/table[1]/tbody/tr/td[2]/a"
+    },
+    "input_recharge_money": {
+      "type": "xpath",
+      "value": ".//*[@id='rechangeMoney']"
+    },
+    "select_bankno": {
+      "type": "xpath",
+      "value": ".//*[@id='bankNo']"
+    },
+    "window_recharge_notice": {
+      "type": "xpath",
+      "value": ".//*[@id='mb_msg']"
+    },
+    "window_recharge_confirm": {
+      "type": "xpath",
+      "value": ".//*[@id='mb_btn_ok']"
+    },
+    "button_recharge_ready": {
+      "type": "xpath",
+      "value": ".//*[@id='middleCenter']/div[2]/div/div/div[2]/div/a"
+    },
+    "input_recharge_phone": {
+      "type": "xpath",
+      "value": ".//*[@id='500405_mobile']"
+    }, 
+    "input_verify_code": {
+      "type": "xpath",
+      "value": ".//*[@id='500405_yzm']"
+    },
+    "button_get_sms": {
+      "type": "xpath",
+      "value": ".//*[@id='500405_smsBtn']"
+    },
+    "check_recharge_protocol": {
+      "type": "xpath",
+      "value": ".//*[@id='agreement_cb']"
+    },
+    "button_recharge_confirm": {
+      "type": "xpath",
+      "value": ".//*[@id='queren']/a"
+    },
+    "message_recharge_redirect": {
+      "comment": "未实名用户重定向",
+      "type": "xpath",
+      "value": ".//*[@id='register']/section/div[1]/div/div/h3"
+    }
+
+}

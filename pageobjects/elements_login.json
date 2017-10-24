@@ -1,0 +1,22 @@
+{
+  "button_login": {
+    "type": "xpath",
+    "value": ".//*[@id='login_tologin']/a"
+  },
+  "message_login": {
+    "type": "xpath",
+    "value": "html/body/section/div/div[2]/div/div[5]/p"
+  },
+  "input_account": {
+    "type": "xpath",
+    "value": ".//*[@id='user-account']"
+  },
+  "input_password": {
+    "type": "xpath",
+    "value": ".//*[@id='user-password']"
+  },
+  "message_login_ok": {
+    "type": "xpath",
+    "value": "html/body/div[2]/div[5]/div[1]/div"
+  } 
+}

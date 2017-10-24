@@ -1,0 +1,18 @@
+{
+  "top_login": {
+    "type": "xpath",
+    "value": "html/body/div[2]/div[4]/div[1]/div/div[2]/a[2]"
+  },
+  "top_logout": {
+    "type": "xpath",
+    "value": "html/body/div[2]/div[4]/div[1]/div/div[3]/a[4]"
+  },
+  "banner_link_login": {
+    "type": "text",
+    "value": "立即登录"
+  },
+  "banner_message_login": {
+    "type": "xpath",
+    "value": "html/body/div[2]/div[5]/div[1]/div"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "link_tender_item": {
+    "comment": "第三个标的",
+    "type": "xpath",
+    "value": ".//*[@id='r-table']/tr[2]/td[6]/a"
+  },
+  "input_tender_money": {
+    "comment": "投资金额",
+    "type": "xpath",
+    "value": ".//*[@id='tender_money']"
+  },
+  "message_money_warn": {
+    "comment": "投资金额警告",
+    "type": "xpath",
+    "value": ".//*[@id='errorMsg']"
+  },
+  "text_tender_avaliable": {
+    "comment": "文字-可投金额",
+    "type": "xpath",
+    "value": ".//*[@id='borrow_ten']"
+  },
+  "text_cash_available": {
+    "comment": "文字-账户可用金额",
+    "type": "xpath",
+    "value": ".//*[@id='member_money']"
+  },
+  "list_coupons": {
+    "comment": "下拉列表-优惠券",
+    "type": "xpath",
+    "value": ".//*[@id='sureCouponsOne']"
+  },
+  "list_coupons_grid": {
+    "comment": "下拉列表窗体",
+    "type": "xpath",
+    "value": ".//*[@id='coupons']/div/p[1]"
+  },
+  "coupons_cash": {
+    "comment": "现金券列表",
+    "type": "name",
+    "value": "chit"
+  },
+  "coupons_rate": {
+    "comment": "加息劵",
+    "type": "name",
+    "value": "rate"
+  },
+  "button_coupons_confirm": {
+    "comment": "按钮-确认优惠券",
+    "type": "xpath",
+    "value": ".//*[@id='coupons']/span"
+  },
+  "button_get_sms": {
+    "comment": "按钮-获取短信验证码",
+    "type": "xpath",
+    "value": ".//*[@id='middleCenter']/section/div/div[2]/div[2]/div[1]/div[3]/span"
+  },
+  "input_sms_code": {
+    "comment": "输入框-验证码",
+    "type": "xpath",
+    "value": ".//*[@id='middleCenter']/section/div/div[2]/div[2]/div[1]/div[3]/input"
+  },
+  "message_sms_verify"; {
+    "comment": "验证信息",
+    "type": "xpath",
+    "value": ".//*[@id='middleCenter']/section/div/div[2]/div[2]/div[1]/div[3]/div/p"
+  },
+  "button_tender_confirm": {
+    "comment": "按钮-确认投资",
+    "type": "xpath",
+    "value": ".//*[@id='tenderSure']"
+  },
+  "message_tender_ok": {
+    "comment": "信息-投资成功",
+    "type": "xpath",
+    "value": ".//*[@id='xubox_layer1']/div/div[1]/span/p"
+  }
+}

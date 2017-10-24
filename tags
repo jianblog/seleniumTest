@@ -1,0 +1,507 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BasePage	framework/base_page.py	/^class BasePage(object):$/;"	c
+BasePage	pageobjects/jcj_page.py	/^from framework.base_page import BasePage$/;"	i
+BasePage	pageobjects/zhuce_page.py	/^from framework.base_page import BasePage$/;"	i
+BrowserEngine	framework/browser_engine.py	/^class BrowserEngine(object):$/;"	c
+BrowserEngine	jenkin_test00/0test_only.py	/^from framework.browser_engine import BrowserEngine$/;"	i
+BrowserEngine	jenkin_test00/ptest_01_chongzhi00.py	/^from framework.browser_engine import BrowserEngine$/;"	i
+BrowserEngine	jenkin_test00/ptest_01_chongzhi01.py	/^from framework.browser_engine import BrowserEngine$/;"	i
+BrowserEngine	jenkin_test00/ptest_01_zhuce.py	/^from framework.browser_engine import BrowserEngine$/;"	i
+BrowserEngine	jenkin_test00/test_00_login.py	/^from framework.browser_engine import BrowserEngine$/;"	i
+BrowserEngine	jenkin_test00/ttest_02_tixian00.py	/^from framework.browser_engine import BrowserEngine$/;"	i
+BrowserEngine	jenkin_test00/ttest_02_tixian01.py	/^from framework.browser_engine import BrowserEngine$/;"	i
+BrowserEngine	jenkin_test00/ttest_02_tixian02.py	/^from framework.browser_engine import BrowserEngine$/;"	i
+BrowserEngine	jenkin_test00/ttest_b_shiming.py	/^from framework.browser_engine import BrowserEngine$/;"	i
+BrowserEngine	jenkin_zhuce/btest_01_shiming.py	/^from framework.browser_engine import BrowserEngine$/;"	i
+BrowserEngine	jenkin_zhuce/test_00_zhuce.py	/^from framework.browser_engine import BrowserEngine$/;"	i
+BrowserEngine	testsuits/test_b_shiming.py	/^from framework.browser_engine import BrowserEngine$/;"	i
+BrowserEngine	testsuits/test_c_chongzhi.py	/^from framework.browser_engine import BrowserEngine$/;"	i
+BrowserEngine	testsuits/test_c_chongzhi01.py	/^from framework.browser_engine import BrowserEngine$/;"	i
+BrowserEngine	testsuits/test_d_touzi.py	/^from framework.browser_engine import BrowserEngine$/;"	i
+BrowserEngine	testsuits/test_d_touzi00.py	/^from framework.browser_engine import BrowserEngine$/;"	i
+BrowserEngine	testsuits/test_d_touzi01.py	/^from framework.browser_engine import BrowserEngine$/;"	i
+BrowserEngine	testsuits/test_d_touzi02.py	/^from framework.browser_engine import BrowserEngine$/;"	i
+BrowserEngine	testsuits/test_e_tixian.py	/^from framework.browser_engine import BrowserEngine$/;"	i
+BrowserEngine	testsuits/test_e_tixian01.py	/^from framework.browser_engine import BrowserEngine$/;"	i
+BrowserEngine	testsuits/test_e_tixian02.py	/^from framework.browser_engine import BrowserEngine$/;"	i
+BrowserEngine	testsuits/test_login.py	/^from framework.browser_engine import BrowserEngine$/;"	i
+CustData	jenkin_zhuce/test_00_zhuce.py	/^from framework.testdata import CustData$/;"	i
+DEFAULT_DESCRIPTION	framework/HTMLTestRunner.py	/^    DEFAULT_DESCRIPTION = ''$/;"	v	class:Template_mixin
+DEFAULT_TITLE	framework/HTMLTestRunner.py	/^    DEFAULT_TITLE = 'Unit Test Report'$/;"	v	class:Template_mixin
+Display	alpha.py	/^from pyvirtualdisplay import Display$/;"	i
+Display	framework/browser_engine.py	/^from pyvirtualdisplay import Display$/;"	i
+HTMLTestRunner	TestRunner.py	/^from framework.HTMLTestRunner import HTMLTestRunner$/;"	i
+HTMLTestRunner	TestRunner_reg.py	/^from framework.HTMLTestRunner import HTMLTestRunner$/;"	i
+HTMLTestRunner	framework/HTMLTestRunner.py	/^class HTMLTestRunner(Template_mixin):$/;"	c
+HTMLTestRunner	testsuits/TestRunner.py	/^from framework.HTMLTestRunner import HTMLTestRunner$/;"	i
+HtmlFile	TestRunner.py	/^    HtmlFile = os.path.join(report_path, "testReport.html")$/;"	v
+HtmlFile	TestRunner_reg.py	/^    HtmlFile = os.path.join(report_path, "testReport.html")$/;"	v
+HtmlFile	testsuits/TestRunner.py	/^HtmlFile = report_path + now +"HTMLtemplate.html"  $/;"	v
+JcjPage	jenkin_test00/test_00_login.py	/^from pageobjects.jcj_page import JcjPage$/;"	i
+JcjPage	pageobjects/jcj_page.py	/^class JcjPage(BasePage):$/;"	c
+JcjPage	testsuits/test_login.py	/^from pageobjects.jcj_page import JcjPage$/;"	i
+Keys	jenkin_test00/ptest_01_zhuce.py	/^from selenium.webdriver.common.keys import Keys$/;"	i
+Keys	jenkin_zhuce/test_00_zhuce.py	/^from selenium.webdriver.common.keys import Keys$/;"	i
+Keys	testsuits/test_d_touzi00.py	/^from selenium.webdriver.common.keys import Keys$/;"	i
+Logger	framework/base_page.py	/^from framework.logger import Logger$/;"	i
+Logger	framework/browser_engine.py	/^from framework.logger import Logger$/;"	i
+Logger	framework/logger.py	/^class Logger(object):$/;"	c
+Logger	framework/testing_data.py	/^from framework.logger import Logger$/;"	i
+Logger	jenkin_test00/test_00_login.py	/^from framework.logger import Logger$/;"	i
+Login	jcj/login.py	/^class Login():$/;"	c
+NoSuchElementException	framework/base_page.py	/^from selenium.common.exceptions import NoSuchElementException$/;"	i
+OutputRedirector	framework/HTMLTestRunner.py	/^class OutputRedirector(object):$/;"	c
+PublicA	jenkin_test00/0test_only.py	/^from pageobjects.public import PublicA$/;"	i
+PublicA	jenkin_test00/ptest_01_chongzhi00.py	/^from pageobjects.public import PublicA$/;"	i
+PublicA	jenkin_test00/ptest_01_chongzhi01.py	/^from pageobjects.public import PublicA$/;"	i
+PublicA	jenkin_test00/ttest_02_tixian00.py	/^from pageobjects.public import PublicA$/;"	i
+PublicA	jenkin_test00/ttest_02_tixian01.py	/^from pageobjects.public import PublicA$/;"	i
+PublicA	jenkin_test00/ttest_02_tixian02.py	/^from pageobjects.public import PublicA$/;"	i
+PublicA	jenkin_test00/ttest_b_shiming.py	/^from pageobjects.public import PublicA$/;"	i
+PublicA	jenkin_zhuce/btest_01_shiming.py	/^from pageobjects.public import PublicA$/;"	i
+PublicA	pageobjects/public.py	/^class PublicA(object):$/;"	c
+PublicA	testsuits/test_b_shiming.py	/^from pageobjects.public import PublicA$/;"	i
+PublicA	testsuits/test_c_chongzhi.py	/^from pageobjects.public import PublicA$/;"	i
+PublicA	testsuits/test_c_chongzhi01.py	/^from pageobjects.public import PublicA$/;"	i
+PublicA	testsuits/test_d_touzi.py	/^from pageobjects.public import PublicA$/;"	i
+PublicA	testsuits/test_d_touzi00.py	/^from pageobjects.public import PublicA$/;"	i
+PublicA	testsuits/test_d_touzi01.py	/^from pageobjects.public import PublicA$/;"	i
+PublicA	testsuits/test_d_touzi02.py	/^from pageobjects.public import PublicA$/;"	i
+PublicA	testsuits/test_e_tixian.py	/^from pageobjects.public import PublicA$/;"	i
+PublicA	testsuits/test_e_tixian01.py	/^from pageobjects.public import PublicA$/;"	i
+PublicA	testsuits/test_e_tixian02.py	/^from pageobjects.public import PublicA$/;"	i
+STATUS	framework/HTMLTestRunner.py	/^    STATUS = {$/;"	v	class:Template_mixin
+Select	jenkin_test00/ptest_01_chongzhi00.py	/^from selenium.webdriver.support.select import Select$/;"	i
+Select	testsuits/test_c_chongzhi.py	/^from selenium.webdriver.support.select import Select$/;"	i
+Template_mixin	framework/HTMLTestRunner.py	/^class Template_mixin(object):$/;"	c
+TestData	framework/testing_data.py	/^class TestData(object):$/;"	c
+TestData	jenkin_test00/0test_only.py	/^from framework.testing_data import TestData$/;"	i
+TestData	jenkin_test00/ptest_01_chongzhi00.py	/^from framework.testing_data import TestData$/;"	i
+TestData	jenkin_test00/ptest_01_chongzhi01.py	/^from framework.testing_data import TestData$/;"	i
+TestData	jenkin_test00/ptest_01_zhuce.py	/^from framework.testing_data import TestData $/;"	i
+TestData	jenkin_test00/test_00_login.py	/^from framework.testing_data import TestData$/;"	i
+TestData	jenkin_test00/ttest_02_tixian00.py	/^from framework.testing_data import TestData$/;"	i
+TestData	jenkin_test00/ttest_b_shiming.py	/^from framework.testing_data import TestData$/;"	i
+TestData	pageobjects/public.py	/^from framework.testing_data import TestData$/;"	i
+TestInt	testsuits/test_d_touzi.py	/^class TestInt(unittest.TestCase):$/;"	c
+TestInt01	testsuits/test_d_touzi00.py	/^class TestInt01(unittest.TestCase):$/;"	c
+TestInt02	testsuits/test_d_touzi01.py	/^class TestInt02(unittest.TestCase):$/;"	c
+TestInt03	testsuits/test_d_touzi02.py	/^class TestInt03(unittest.TestCase):$/;"	c
+TestLgoin	jenkin_test00/test_00_login.py	/^class TestLgoin(unittest.TestCase):$/;"	c
+TestLgoin	testsuits/test_login.py	/^class TestLgoin(unittest.TestCase):$/;"	c
+TestProgram	framework/HTMLTestRunner.py	/^class TestProgram(unittest.TestProgram):$/;"	c
+TestRealname	jenkin_test00/ttest_b_shiming.py	/^class TestRealname(unittest.TestCase):$/;"	c
+TestRealname	jenkin_zhuce/btest_01_shiming.py	/^class TestRealname(unittest.TestCase):$/;"	c
+TestRealname	testsuits/test_b_shiming.py	/^class TestRealname(unittest.TestCase):$/;"	c
+TestRecharge	jenkin_test00/ptest_01_chongzhi01.py	/^class TestRecharge(unittest.TestCase):$/;"	c
+TestRecharge	testsuits/test_c_chongzhi01.py	/^class TestRecharge(unittest.TestCase):$/;"	c
+TestRecharge01	jenkin_test00/ptest_01_chongzhi00.py	/^class TestRecharge01(unittest.TestCase):$/;"	c
+TestRecharge01	testsuits/test_c_chongzhi.py	/^class TestRecharge01(unittest.TestCase):$/;"	c
+TestRegistered	jenkin_test00/ptest_01_zhuce.py	/^class TestRegistered(unittest.TestCase):$/;"	c
+TestRegistered	jenkin_zhuce/test_00_zhuce.py	/^class TestRegistered(unittest.TestCase):$/;"	c
+TestResult	framework/HTMLTestRunner.py	/^TestResult = unittest.TestResult$/;"	v
+TestWithdraw	jenkin_test00/0test_only.py	/^class TestWithdraw(unittest.TestCase):$/;"	c
+TestWithdraw	jenkin_test00/ttest_02_tixian00.py	/^class TestWithdraw(unittest.TestCase):$/;"	c
+TestWithdraw	testsuits/test_e_tixian.py	/^class TestWithdraw(unittest.TestCase):$/;"	c
+TestWithdraw01	jenkin_test00/ttest_02_tixian01.py	/^class TestWithdraw01(unittest.TestCase):$/;"	c
+TestWithdraw01	testsuits/test_e_tixian01.py	/^class TestWithdraw01(unittest.TestCase):$/;"	c
+TestWithdraw02	jenkin_test00/ttest_02_tixian02.py	/^class TestWithdraw02(unittest.TestCase):$/;"	c
+TestWithdraw02	testsuits/test_e_tixian02.py	/^class TestWithdraw02(unittest.TestCase):$/;"	c
+WebDriverException	jenkin_test00/0test_only.py	/^from selenium.common.exceptions import WebDriverException$/;"	i
+WebDriverException	jenkin_test00/ttest_02_tixian00.py	/^from selenium.common.exceptions import WebDriverException$/;"	i
+Xvfb	alpha.py	/^from xvfbwrapper import Xvfb$/;"	i
+Xvfb	framework/browser_engine.py	/^from xvfbwrapper import Xvfb$/;"	i
+ZhuCePage	pageobjects/zhuce_page.py	/^class ZhuCePage(BasePage):$/;"	c
+_TestResult	framework/HTMLTestRunner.py	/^class _TestResult(TestResult):$/;"	c
+__author__	framework/HTMLTestRunner.py	/^__author__ = "Wai Yip Tung"$/;"	v
+__dbQuery	framework/testing_data.py	/^    def __dbQuery(sql):$/;"	m	class:TestData	file:
+__dbUpdate	framework/testing_data.py	/^    def __dbUpdate(sql):$/;"	m	class:TestData	file:
+__init__	framework/HTMLTestRunner.py	/^    def __init__(self, fp):$/;"	m	class:OutputRedirector
+__init__	framework/HTMLTestRunner.py	/^    def __init__(self, stream=sys.stdout, verbosity=1, title=None, description=None):$/;"	m	class:HTMLTestRunner
+__init__	framework/HTMLTestRunner.py	/^    def __init__(self, verbosity=1):$/;"	m	class:_TestResult
+__init__	framework/base_page.py	/^    def __init__(self,driver):$/;"	m	class:BasePage
+__init__	framework/browser_engine.py	/^    def __init__(self,driver):$/;"	m	class:BrowserEngine
+__init__	framework/logger.py	/^    def __init__(self,logger):$/;"	m	class:Logger
+__version__	framework/HTMLTestRunner.py	/^__version__ = "0.8.2"$/;"	v
+_generate_ending	framework/HTMLTestRunner.py	/^    def _generate_ending(self):$/;"	m	class:HTMLTestRunner
+_generate_heading	framework/HTMLTestRunner.py	/^    def _generate_heading(self, report_attrs):$/;"	m	class:HTMLTestRunner
+_generate_report	framework/HTMLTestRunner.py	/^    def _generate_report(self, result):$/;"	m	class:HTMLTestRunner
+_generate_report_test	framework/HTMLTestRunner.py	/^    def _generate_report_test(self, rows, cid, tid, n, t, o, e):$/;"	m	class:HTMLTestRunner
+_generate_stylesheet	framework/HTMLTestRunner.py	/^    def _generate_stylesheet(self):$/;"	m	class:HTMLTestRunner
+addError	framework/HTMLTestRunner.py	/^    def addError(self, test, err):$/;"	m	class:_TestResult
+addFailure	framework/HTMLTestRunner.py	/^    def addFailure(self, test, err):$/;"	m	class:_TestResult
+addSuccess	framework/HTMLTestRunner.py	/^    def addSuccess(self, test):$/;"	m	class:_TestResult
+back	framework/base_page.py	/^    def back(self):$/;"	m	class:BasePage
+browser	alpha.py	/^browser = webdriver.Remote($/;"	v
+changetoRealed	framework/testing_data.py	/^    def changetoRealed(mobile):$/;"	m	class:TestData
+changetoReged	framework/testing_data.py	/^    def changetoReged(mobile):$/;"	m	class:TestData
+chrome_driver_path	framework/browser_engine.py	/^    chrome_driver_path = dir + '\/tools\/chromedriver.exe' $/;"	v	class:BrowserEngine
+clear	framework/base_page.py	/^    def clear(self,selector):$/;"	m	class:BasePage
+click	framework/base_page.py	/^    def click(self,selector):$/;"	m	class:BasePage
+click_login	pageobjects/jcj_page.py	/^    def click_login(self):$/;"	m	class:JcjPage
+click_zhuce	pageobjects/zhuce_page.py	/^    def click_zhuce(self):$/;"	m	class:ZhuCePage
+close	framework/base_page.py	/^    def close(self):$/;"	m	class:BasePage
+command_executor	alpha.py	/^   command_executor='http:\/\/beta.dev:4444\/wd\/hub',$/;"	v
+complete_output	framework/HTMLTestRunner.py	/^    def complete_output(self):$/;"	m	class:_TestResult
+configparser	framework/browser_engine.py	/^import configparser$/;"	i
+configparser	pageobjects/public.py	/^import configparser$/;"	i
+connector	framework/testing_data.py	/^import mysql.connector$/;"	i
+cur_path	testsuits/my_test.py	/^    cur_path = os.path.abspath(__file__)$/;"	v
+datetime	framework/HTMLTestRunner.py	/^import datetime$/;"	i
+datetime	framework/testing_data.py	/^import datetime$/;"	i
+dbstring	framework/testing_data.py	/^    dbstring = {$/;"	v	class:TestData
+desired_capabilities	alpha.py	/^   desired_capabilities={'browserName': 'firefox',$/;"	v
+dir	framework/browser_engine.py	/^    dir = os.path.abspath('\/data\/projects\/notebook\/autoTest\/jingchujie')$/;"	v	class:BrowserEngine
+display	alpha.py	/^display = Display(visible=0, size=(1440,900))$/;"	v
+driver	jcj/login.py	/^    driver = webdriver.Firefox()$/;"	v	class:Login
+find_element	framework/base_page.py	/^    def find_element(self,selector):$/;"	m	class:BasePage
+flush	framework/HTMLTestRunner.py	/^    def flush(self):$/;"	m	class:OutputRedirector
+forward	framework/base_page.py	/^    def forward(self):$/;"	m	class:BasePage
+fp	testsuits/TestRunner.py	/^fp = open(HtmlFile,'wb')$/;"	v
+generateReport	framework/HTMLTestRunner.py	/^    def generateReport(self, test, result):$/;"	m	class:HTMLTestRunner
+getFreshUser	framework/testing_data.py	/^    def getFreshUser():$/;"	m	class:TestData
+getRealUser	framework/testing_data.py	/^    def getRealUser():$/;"	m	class:TestData
+getRegUser	framework/testing_data.py	/^    def getRegUser():$/;"	m	class:TestData
+getReportAttributes	framework/HTMLTestRunner.py	/^    def getReportAttributes(self, result):$/;"	m	class:HTMLTestRunner
+get_page_title	framework/base_page.py	/^    def get_page_title(self):$/;"	m	class:BasePage
+get_window_img	framework/base_page.py	/^    def get_window_img(self):$/;"	m	class:BasePage
+getlog	framework/logger.py	/^    def getlog(self):$/;"	m	class:Logger
+html_escape	report/2017-09-29-11_43_27HTMLtemplate.html	/^function html_escape(s) {$/;"	f
+html_escape	report/2017-10-09-08_32_44HTMLtemplate.html	/^function html_escape(s) {$/;"	f
+html_escape	report/2017-10-09-13_27_40HTMLtemplate.html	/^function html_escape(s) {$/;"	f
+ie_driver_path	framework/browser_engine.py	/^    ie_driver_path = dir +  '\/tools\/IEDriverServer.exe'  $/;"	v	class:BrowserEngine
+inactiveUser	framework/testing_data.py	/^    def inactiveUser(mobile):$/;"	m	class:TestData
+io	framework/HTMLTestRunner.py	/^import io$/;"	i
+logger	framework/base_page.py	/^logger =Logger(logger="BasePage").getlog()$/;"	v
+logger	framework/browser_engine.py	/^logger = Logger(logger = "BrowserEngine").getlog()$/;"	v
+logger	framework/testing_data.py	/^logger =Logger(logger="BasePage").getlog()$/;"	v
+logger	jenkin_test00/test_00_login.py	/^logger = Logger(logger = "BrowserEngine").getlog()$/;"	v
+logging	framework/logger.py	/^import logging$/;"	i
+login	pageobjects/public.py	/^    def login(self, user):$/;"	m	class:PublicA
+login_s	pageobjects/jcj_page.py	/^    def login_s(self):$/;"	m	class:JcjPage
+main	framework/HTMLTestRunner.py	/^main = TestProgram$/;"	v
+mysql	framework/testing_data.py	/^import mysql.connector$/;"	i
+now	TestRunner.py	/^now = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))$/;"	v
+now	TestRunner_reg.py	/^now = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))$/;"	v
+now	testsuits/TestRunner.py	/^now = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))$/;"	v
+open_browser	framework/browser_engine.py	/^    def open_browser(self,url):$/;"	m	class:BrowserEngine
+os	TestRunner.py	/^import os$/;"	i
+os	TestRunner_reg.py	/^import os$/;"	i
+os	framework/base_page.py	/^import os.path$/;"	i
+os	framework/browser_engine.py	/^import os.path$/;"	i
+os	framework/logger.py	/^import os.path$/;"	i
+os	framework/testing_data.py	/^import os$/;"	i
+os	jenkin_test00/0test_only.py	/^import os$/;"	i
+os	jenkin_test00/ttest_02_tixian00.py	/^import os$/;"	i
+os	pageobjects/public.py	/^import os.path$/;"	i
+os	testsuits/TestRunner.py	/^import os$/;"	i
+os	testsuits/my_test.py	/^import os$/;"	i
+path	framework/base_page.py	/^import os.path$/;"	i
+path	framework/browser_engine.py	/^import os.path$/;"	i
+path	framework/logger.py	/^import os.path$/;"	i
+path	pageobjects/public.py	/^import os.path$/;"	i
+popUser	framework/testing_data.py	/^    def popUser(self, user_file):$/;"	m	class:TestData
+public_invest	pageobjects/public.py	/^    def public_invest(self):$/;"	m	class:PublicA
+public_login	pageobjects/public.py	/^    def public_login(self):$/;"	m	class:PublicA
+public_login01	pageobjects/public.py	/^    def public_login01(self):$/;"	m	class:PublicA
+public_login02	pageobjects/public.py	/^    def public_login02(self):$/;"	m	class:PublicA
+public_login03	pageobjects/public.py	/^    def public_login03(self):$/;"	m	class:PublicA
+public_realname	pageobjects/public.py	/^    def public_realname(self):$/;"	m	class:PublicA
+public_recharge	pageobjects/public.py	/^    def public_recharge(self):$/;"	m	class:PublicA
+public_withdraw	pageobjects/public.py	/^    def public_withdraw(self):$/;"	m	class:PublicA
+quit_browser	framework/base_page.py	/^    def quit_browser(self):$/;"	m	class:BasePage
+quit_browser	framework/browser_engine.py	/^    def quit_browser(self):$/;"	m	class:BrowserEngine
+realn12	jenkin_zhuce/btest_01_shiming.py	/^    def realn12(self):$/;"	m	class:TestRealname
+reg13	jenkin_zhuce/test_00_zhuce.py	/^    def reg13(self):$/;"	m	class:TestRegistered
+report_path	TestRunner.py	/^report_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'report')  $/;"	v
+report_path	TestRunner_reg.py	/^report_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'report')  $/;"	v
+report_path	testsuits/TestRunner.py	/^report_path = os.path.dirname(os.path.abspath('.')) + '\/test_report\/'  $/;"	v
+result	jcj/login.py	/^    result = driver.find_element_by_xpath("html\/body\/section\/div\/div[2]\/div\/div[5]\/p")$/;"	v	class:Login
+run	framework/HTMLTestRunner.py	/^    def run(self, test):$/;"	m	class:HTMLTestRunner
+runTests	framework/HTMLTestRunner.py	/^    def runTests(self):$/;"	m	class:TestProgram
+runner	TestRunner.py	/^        runner = unittest.TextTestRunner()$/;"	v
+runner	TestRunner_reg.py	/^        runner = HTMLTestRunner(stream=fp, title="京储街项目测试报告", description="用例测试情况")$/;"	v
+runner	testsuits/TestRunner.py	/^    runner = HTMLTestRunner(stream=fp, title="京储街项目测试报告", description="用例测试情况")$/;"	v
+saxutils	framework/HTMLTestRunner.py	/^from xml.sax import saxutils$/;"	i
+setUpClass	jenkin_test00/0test_only.py	/^    def setUpClass(cls):$/;"	m	class:TestWithdraw
+setUpClass	jenkin_test00/ptest_01_chongzhi00.py	/^    def setUpClass(cls):$/;"	m	class:TestRecharge01
+setUpClass	jenkin_test00/ptest_01_chongzhi01.py	/^    def setUpClass(cls):$/;"	m	class:TestRecharge
+setUpClass	jenkin_test00/ptest_01_zhuce.py	/^    def setUpClass(cls):$/;"	m	class:TestRegistered
+setUpClass	jenkin_test00/test_00_login.py	/^    def setUpClass(cls):$/;"	m	class:TestLgoin
+setUpClass	jenkin_test00/ttest_02_tixian00.py	/^    def setUpClass(cls):$/;"	m	class:TestWithdraw
+setUpClass	jenkin_test00/ttest_02_tixian01.py	/^    def setUpClass(cls):$/;"	m	class:TestWithdraw01
+setUpClass	jenkin_test00/ttest_02_tixian02.py	/^    def setUpClass(cls):$/;"	m	class:TestWithdraw02
+setUpClass	jenkin_test00/ttest_b_shiming.py	/^    def setUpClass(cls):$/;"	m	class:TestRealname
+setUpClass	jenkin_zhuce/btest_01_shiming.py	/^    def setUpClass(cls):$/;"	m	class:TestRealname
+setUpClass	jenkin_zhuce/test_00_zhuce.py	/^    def setUpClass(cls):$/;"	m	class:TestRegistered
+setUpClass	testsuits/test_b_shiming.py	/^    def setUpClass(cls):$/;"	m	class:TestRealname
+setUpClass	testsuits/test_c_chongzhi.py	/^    def setUpClass(cls):$/;"	m	class:TestRecharge01
+setUpClass	testsuits/test_c_chongzhi01.py	/^    def setUpClass(cls):$/;"	m	class:TestRecharge
+setUpClass	testsuits/test_d_touzi.py	/^    def setUpClass(cls):$/;"	m	class:TestInt
+setUpClass	testsuits/test_d_touzi00.py	/^    def setUpClass(cls):$/;"	m	class:TestInt01
+setUpClass	testsuits/test_d_touzi01.py	/^    def setUpClass(cls):$/;"	m	class:TestInt02
+setUpClass	testsuits/test_d_touzi02.py	/^    def setUpClass(cls):$/;"	m	class:TestInt03
+setUpClass	testsuits/test_e_tixian.py	/^    def setUpClass(cls):$/;"	m	class:TestWithdraw
+setUpClass	testsuits/test_e_tixian01.py	/^    def setUpClass(cls):$/;"	m	class:TestWithdraw01
+setUpClass	testsuits/test_e_tixian02.py	/^    def setUpClass(cls):$/;"	m	class:TestWithdraw02
+setUpClass	testsuits/test_login.py	/^    def setUpClass(cls):$/;"	m	class:TestLgoin
+showCase	report/2017-09-29-11_43_27HTMLtemplate.html	/^function showCase(level) {$/;"	f
+showCase	report/2017-10-09-08_32_44HTMLtemplate.html	/^function showCase(level) {$/;"	f
+showCase	report/2017-10-09-13_27_40HTMLtemplate.html	/^function showCase(level) {$/;"	f
+showClassDetail	report/2017-09-29-11_43_27HTMLtemplate.html	/^function showClassDetail(cid, count) {$/;"	f
+showClassDetail	report/2017-10-09-08_32_44HTMLtemplate.html	/^function showClassDetail(cid, count) {$/;"	f
+showClassDetail	report/2017-10-09-13_27_40HTMLtemplate.html	/^function showClassDetail(cid, count) {$/;"	f
+showOutput	report/2017-09-29-11_43_27HTMLtemplate.html	/^function showOutput(id, name) {$/;"	f
+showOutput	report/2017-10-09-08_32_44HTMLtemplate.html	/^function showOutput(id, name) {$/;"	f
+showOutput	report/2017-10-09-13_27_40HTMLtemplate.html	/^function showOutput(id, name) {$/;"	f
+showTestDetail	report/2017-09-29-11_43_27HTMLtemplate.html	/^function showTestDetail(div_id){$/;"	f
+showTestDetail	report/2017-10-09-08_32_44HTMLtemplate.html	/^function showTestDetail(div_id){$/;"	f
+showTestDetail	report/2017-10-09-13_27_40HTMLtemplate.html	/^function showTestDetail(div_id){$/;"	f
+sleep	framework/base_page.py	/^    def sleep(seconds):$/;"	m	class:BasePage
+sortResult	framework/HTMLTestRunner.py	/^    def sortResult(self, result_list):$/;"	m	class:HTMLTestRunner
+startTest	framework/HTMLTestRunner.py	/^    def startTest(self, test):$/;"	m	class:_TestResult
+stderr_redirector	framework/HTMLTestRunner.py	/^stderr_redirector = OutputRedirector(sys.stderr)$/;"	v
+stdout_redirector	framework/HTMLTestRunner.py	/^stdout_redirector = OutputRedirector(sys.stdout)$/;"	v
+stopTest	framework/HTMLTestRunner.py	/^    def stopTest(self, test):$/;"	m	class:_TestResult
+suite	TestRunner.py	/^        suite = unittest.TestLoader().discover(suite_path)$/;"	v
+suite	TestRunner_reg.py	/^        suite = unittest.TestLoader().discover(suite_path)$/;"	v
+suite	testsuits/TestRunner.py	/^suite = unittest.TestLoader().discover("testsuits")$/;"	v
+suite_path	TestRunner.py	/^        suite_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "jenkin_test00")$/;"	v
+suite_path	TestRunner_reg.py	/^        suite_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "jenkin_zhuce")$/;"	v
+sys	TestRunner.py	/^import sys$/;"	i
+sys	TestRunner_reg.py	/^import sys$/;"	i
+sys	framework/HTMLTestRunner.py	/^import sys$/;"	i
+sys	framework/testing_data.py	/^import sys$/;"	i
+sys	testsuits/TestRunner.py	/^import sys$/;"	i
+sys	testsuits/test_login.py	/^import sys$/;"	i
+tearDownClass	jenkin_test00/0test_only.py	/^    def tearDownClass(cls):$/;"	m	class:TestWithdraw
+tearDownClass	jenkin_test00/ptest_01_chongzhi00.py	/^    def tearDownClass(cls):$/;"	m	class:TestRecharge01
+tearDownClass	jenkin_test00/ptest_01_chongzhi01.py	/^    def tearDownClass(cls):$/;"	m	class:TestRecharge
+tearDownClass	jenkin_test00/ptest_01_zhuce.py	/^    def tearDownClass(cls):$/;"	m	class:TestRegistered
+tearDownClass	jenkin_test00/test_00_login.py	/^    def tearDownClass(cls):$/;"	m	class:TestLgoin
+tearDownClass	jenkin_test00/ttest_02_tixian00.py	/^    def tearDownClass(cls):$/;"	m	class:TestWithdraw
+tearDownClass	jenkin_test00/ttest_02_tixian01.py	/^    def tearDownClass(cls):$/;"	m	class:TestWithdraw01
+tearDownClass	jenkin_test00/ttest_02_tixian02.py	/^    def tearDownClass(cls):$/;"	m	class:TestWithdraw02
+tearDownClass	jenkin_test00/ttest_b_shiming.py	/^    def tearDownClass(cls):$/;"	m	class:TestRealname
+tearDownClass	jenkin_zhuce/btest_01_shiming.py	/^    def tearDownClass(cls):$/;"	m	class:TestRealname
+tearDownClass	jenkin_zhuce/test_00_zhuce.py	/^    def tearDownClass(cls):$/;"	m	class:TestRegistered
+tearDownClass	testsuits/test_b_shiming.py	/^    def tearDownClass(cls):$/;"	m	class:TestRealname
+tearDownClass	testsuits/test_c_chongzhi.py	/^    def tearDownClass(cls):$/;"	m	class:TestRecharge01
+tearDownClass	testsuits/test_c_chongzhi01.py	/^    def tearDownClass(cls):$/;"	m	class:TestRecharge
+tearDownClass	testsuits/test_d_touzi.py	/^    def tearDownClass(cls):$/;"	m	class:TestInt
+tearDownClass	testsuits/test_d_touzi00.py	/^    def tearDownClass(cls):$/;"	m	class:TestInt01
+tearDownClass	testsuits/test_d_touzi01.py	/^    def tearDownClass(cls):$/;"	m	class:TestInt02
+tearDownClass	testsuits/test_d_touzi02.py	/^    def tearDownClass(cls):$/;"	m	class:TestInt03
+tearDownClass	testsuits/test_e_tixian.py	/^    def tearDownClass(cls):$/;"	m	class:TestWithdraw
+tearDownClass	testsuits/test_e_tixian01.py	/^    def tearDownClass(cls):$/;"	m	class:TestWithdraw01
+tearDownClass	testsuits/test_e_tixian02.py	/^    def tearDownClass(cls):$/;"	m	class:TestWithdraw02
+tearDownClass	testsuits/test_login.py	/^    def tearDownClass(cls):$/;"	m	class:TestLgoin
+test_inv01	testsuits/test_d_touzi.py	/^    def test_inv01(self):$/;"	m	class:TestInt
+test_inv02	testsuits/test_d_touzi.py	/^    def test_inv02(self):$/;"	m	class:TestInt
+test_inv03	testsuits/test_d_touzi.py	/^    def test_inv03(self):$/;"	m	class:TestInt
+test_inv04	testsuits/test_d_touzi.py	/^    def test_inv04(self):$/;"	m	class:TestInt
+test_inv05	testsuits/test_d_touzi.py	/^    def test_inv05(self):$/;"	m	class:TestInt
+test_inv06	testsuits/test_d_touzi.py	/^    def test_inv06(self):$/;"	m	class:TestInt
+test_inv07	testsuits/test_d_touzi.py	/^    def test_inv07(self):$/;"	m	class:TestInt
+test_inv08	testsuits/test_d_touzi.py	/^    def test_inv08(self) :$/;"	m	class:TestInt
+test_inv09	testsuits/test_d_touzi00.py	/^    def test_inv09(self):$/;"	m	class:TestInt01
+test_inv10	testsuits/test_d_touzi00.py	/^    def test_inv10(self):$/;"	m	class:TestInt01
+test_inv11	testsuits/test_d_touzi01.py	/^    def test_inv11(self):$/;"	m	class:TestInt02
+test_inv12	testsuits/test_d_touzi02.py	/^    def test_inv12(self):$/;"	m	class:TestInt03
+test_login01	jenkin_test00/test_00_login.py	/^    def test_login01(self):$/;"	m	class:TestLgoin
+test_login01	testsuits/test_login.py	/^    def test_login01(self):$/;"	m	class:TestLgoin
+test_login02	jenkin_test00/test_00_login.py	/^    def test_login02(self):$/;"	m	class:TestLgoin
+test_login02	testsuits/test_login.py	/^    def test_login02(self):$/;"	m	class:TestLgoin
+test_login03	jenkin_test00/test_00_login.py	/^    def test_login03(self):$/;"	m	class:TestLgoin
+test_login03	testsuits/test_login.py	/^    def test_login03(self):$/;"	m	class:TestLgoin
+test_login04	jenkin_test00/test_00_login.py	/^    def test_login04(self):$/;"	m	class:TestLgoin
+test_login04	testsuits/test_login.py	/^    def test_login04(self):$/;"	m	class:TestLgoin
+test_login05	jenkin_test00/test_00_login.py	/^    def  test_login05(self):$/;"	m	class:TestLgoin
+test_login05	testsuits/test_login.py	/^    def  test_login05(self):$/;"	m	class:TestLgoin
+test_realn01	jenkin_test00/ttest_b_shiming.py	/^    def test_realn01(self):$/;"	m	class:TestRealname
+test_realn01	jenkin_zhuce/btest_01_shiming.py	/^    def test_realn01(self):$/;"	m	class:TestRealname
+test_realn01	testsuits/test_b_shiming.py	/^    def test_realn01(self):$/;"	m	class:TestRealname
+test_realn02	jenkin_test00/ttest_b_shiming.py	/^    def test_realn02(self):$/;"	m	class:TestRealname
+test_realn02	jenkin_zhuce/btest_01_shiming.py	/^    def test_realn02(self):$/;"	m	class:TestRealname
+test_realn02	testsuits/test_b_shiming.py	/^    def test_realn02(self):$/;"	m	class:TestRealname
+test_realn03	jenkin_test00/ttest_b_shiming.py	/^    def test_realn03(self):$/;"	m	class:TestRealname
+test_realn03	jenkin_zhuce/btest_01_shiming.py	/^    def test_realn03(self):$/;"	m	class:TestRealname
+test_realn03	testsuits/test_b_shiming.py	/^    def test_realn03(self):$/;"	m	class:TestRealname
+test_realn04	jenkin_test00/ttest_b_shiming.py	/^    def test_realn04(self):$/;"	m	class:TestRealname
+test_realn04	jenkin_zhuce/btest_01_shiming.py	/^    def test_realn04(self):$/;"	m	class:TestRealname
+test_realn04	testsuits/test_b_shiming.py	/^    def test_realn04(self):$/;"	m	class:TestRealname
+test_realn05	jenkin_test00/ttest_b_shiming.py	/^    def test_realn05(self):$/;"	m	class:TestRealname
+test_realn05	jenkin_zhuce/btest_01_shiming.py	/^    def test_realn05(self):$/;"	m	class:TestRealname
+test_realn05	testsuits/test_b_shiming.py	/^    def test_realn05(self):$/;"	m	class:TestRealname
+test_realn06	jenkin_test00/ttest_b_shiming.py	/^    def test_realn06(self):$/;"	m	class:TestRealname
+test_realn06	jenkin_zhuce/btest_01_shiming.py	/^    def test_realn06(self):$/;"	m	class:TestRealname
+test_realn06	testsuits/test_b_shiming.py	/^    def test_realn06(self):$/;"	m	class:TestRealname
+test_realn07	jenkin_test00/ttest_b_shiming.py	/^    def test_realn07(self):$/;"	m	class:TestRealname
+test_realn07	jenkin_zhuce/btest_01_shiming.py	/^    def test_realn07(self):$/;"	m	class:TestRealname
+test_realn07	testsuits/test_b_shiming.py	/^    def test_realn07(self):$/;"	m	class:TestRealname
+test_realn08	jenkin_test00/ttest_b_shiming.py	/^    def test_realn08(self):$/;"	m	class:TestRealname
+test_realn08	jenkin_zhuce/btest_01_shiming.py	/^    def test_realn08(self):$/;"	m	class:TestRealname
+test_realn08	testsuits/test_b_shiming.py	/^    def test_realn08(self):$/;"	m	class:TestRealname
+test_realn09	jenkin_test00/ttest_b_shiming.py	/^    def test_realn09(self):$/;"	m	class:TestRealname
+test_realn09	jenkin_zhuce/btest_01_shiming.py	/^    def test_realn09(self):$/;"	m	class:TestRealname
+test_realn09	testsuits/test_b_shiming.py	/^    def test_realn09(self):$/;"	m	class:TestRealname
+test_realn10	jenkin_test00/ttest_b_shiming.py	/^    def test_realn10(self):$/;"	m	class:TestRealname
+test_realn10	jenkin_zhuce/btest_01_shiming.py	/^    def test_realn10(self):$/;"	m	class:TestRealname
+test_realn10	testsuits/test_b_shiming.py	/^    def test_realn10(self):$/;"	m	class:TestRealname
+test_realn11	jenkin_test00/ttest_b_shiming.py	/^    def test_realn11(self):$/;"	m	class:TestRealname
+test_realn11	jenkin_zhuce/btest_01_shiming.py	/^    def test_realn11(self):$/;"	m	class:TestRealname
+test_realn11	testsuits/test_b_shiming.py	/^    def test_realn11(self):$/;"	m	class:TestRealname
+test_realn12	jenkin_test00/ttest_b_shiming.py	/^    def test_realn12(self):$/;"	m	class:TestRealname
+test_realn12	testsuits/test_b_shiming.py	/^    def test_realn12(self):$/;"	m	class:TestRealname
+test_rechar01	jenkin_test00/ptest_01_chongzhi01.py	/^    def test_rechar01(self):$/;"	m	class:TestRecharge
+test_rechar01	testsuits/test_c_chongzhi01.py	/^    def test_rechar01(self):$/;"	m	class:TestRecharge
+test_rechar02	jenkin_test00/ptest_01_chongzhi00.py	/^    def test_rechar02(self):$/;"	m	class:TestRecharge01
+test_rechar02	testsuits/test_c_chongzhi.py	/^    def test_rechar02(self):$/;"	m	class:TestRecharge01
+test_rechar03	jenkin_test00/ptest_01_chongzhi00.py	/^    def test_rechar03(self):$/;"	m	class:TestRecharge01
+test_rechar03	testsuits/test_c_chongzhi.py	/^    def test_rechar03(self):$/;"	m	class:TestRecharge01
+test_rechar04	jenkin_test00/ptest_01_chongzhi00.py	/^    def test_rechar04(self):$/;"	m	class:TestRecharge01
+test_rechar04	testsuits/test_c_chongzhi.py	/^    def test_rechar04(self):$/;"	m	class:TestRecharge01
+test_rechar05	jenkin_test00/ptest_01_chongzhi00.py	/^    def test_rechar05(self):$/;"	m	class:TestRecharge01
+test_rechar05	testsuits/test_c_chongzhi.py	/^    def test_rechar05(self):$/;"	m	class:TestRecharge01
+test_rechar06	jenkin_test00/ptest_01_chongzhi00.py	/^    def test_rechar06(self):$/;"	m	class:TestRecharge01
+test_rechar06	testsuits/test_c_chongzhi.py	/^    def test_rechar06(self):$/;"	m	class:TestRecharge01
+test_rechar07	jenkin_test00/ptest_01_chongzhi00.py	/^    def test_rechar07(self):$/;"	m	class:TestRecharge01
+test_rechar07	testsuits/test_c_chongzhi.py	/^    def test_rechar07(self):$/;"	m	class:TestRecharge01
+test_rechar08	jenkin_test00/ptest_01_chongzhi00.py	/^    def test_rechar08(self):$/;"	m	class:TestRecharge01
+test_rechar08	testsuits/test_c_chongzhi.py	/^    def test_rechar08(self):$/;"	m	class:TestRecharge01
+test_rechar09	jenkin_test00/ptest_01_chongzhi00.py	/^    def test_rechar09(self):$/;"	m	class:TestRecharge01
+test_rechar09	testsuits/test_c_chongzhi.py	/^    def test_rechar09(self):$/;"	m	class:TestRecharge01
+test_rechar10	jenkin_test00/ptest_01_chongzhi00.py	/^    def test_rechar10(self):$/;"	m	class:TestRecharge01
+test_rechar10	testsuits/test_c_chongzhi.py	/^    def test_rechar10(self):$/;"	m	class:TestRecharge01
+test_rechar11	jenkin_test00/ptest_01_chongzhi00.py	/^    def test_rechar11(self): $/;"	m	class:TestRecharge01
+test_rechar11	testsuits/test_c_chongzhi.py	/^    def test_rechar11(self): $/;"	m	class:TestRecharge01
+test_reg01	jenkin_test00/ptest_01_zhuce.py	/^    def test_reg01(self):$/;"	m	class:TestRegistered
+test_reg01	jenkin_zhuce/test_00_zhuce.py	/^    def test_reg01(self):$/;"	m	class:TestRegistered
+test_reg02	jenkin_test00/ptest_01_zhuce.py	/^    def test_reg02(self):$/;"	m	class:TestRegistered
+test_reg02	jenkin_zhuce/test_00_zhuce.py	/^    def test_reg02(self):$/;"	m	class:TestRegistered
+test_reg03	jenkin_test00/ptest_01_zhuce.py	/^    def test_reg03(self):$/;"	m	class:TestRegistered
+test_reg03	jenkin_zhuce/test_00_zhuce.py	/^    def test_reg03(self):$/;"	m	class:TestRegistered
+test_reg04	jenkin_test00/ptest_01_zhuce.py	/^    def test_reg04(self):$/;"	m	class:TestRegistered
+test_reg04	jenkin_zhuce/test_00_zhuce.py	/^    def test_reg04(self):$/;"	m	class:TestRegistered
+test_reg05	jenkin_test00/ptest_01_zhuce.py	/^    def test_reg05(self):$/;"	m	class:TestRegistered
+test_reg05	jenkin_zhuce/test_00_zhuce.py	/^    def test_reg05(self):$/;"	m	class:TestRegistered
+test_reg06	jenkin_test00/ptest_01_zhuce.py	/^    def test_reg06(self):$/;"	m	class:TestRegistered
+test_reg06	jenkin_zhuce/test_00_zhuce.py	/^    def test_reg06(self):$/;"	m	class:TestRegistered
+test_reg07	jenkin_test00/ptest_01_zhuce.py	/^    def test_reg07(self):$/;"	m	class:TestRegistered
+test_reg07	jenkin_zhuce/test_00_zhuce.py	/^    def test_reg07(self):$/;"	m	class:TestRegistered
+test_reg08	jenkin_test00/ptest_01_zhuce.py	/^    def test_reg08(self):$/;"	m	class:TestRegistered
+test_reg08	jenkin_zhuce/test_00_zhuce.py	/^    def test_reg08(self):$/;"	m	class:TestRegistered
+test_reg09	jenkin_test00/ptest_01_zhuce.py	/^    def test_reg09(self):$/;"	m	class:TestRegistered
+test_reg09	jenkin_zhuce/test_00_zhuce.py	/^    def test_reg09(self):$/;"	m	class:TestRegistered
+test_reg10	jenkin_test00/ptest_01_zhuce.py	/^    def test_reg10(self):$/;"	m	class:TestRegistered
+test_reg10	jenkin_zhuce/test_00_zhuce.py	/^    def test_reg10(self):$/;"	m	class:TestRegistered
+test_reg11	jenkin_test00/ptest_01_zhuce.py	/^    def test_reg11(self):$/;"	m	class:TestRegistered
+test_reg11	jenkin_zhuce/test_00_zhuce.py	/^    def test_reg11(self):$/;"	m	class:TestRegistered
+test_reg12	jenkin_test00/ptest_01_zhuce.py	/^    def test_reg12(self):$/;"	m	class:TestRegistered
+test_reg12	jenkin_zhuce/test_00_zhuce.py	/^    def test_reg12(self):$/;"	m	class:TestRegistered
+test_reg13	jenkin_test00/ptest_01_zhuce.py	/^    def test_reg13(self):$/;"	m	class:TestRegistered
+test_withd01	jenkin_test00/0test_only.py	/^    def test_withd01(self):$/;"	m	class:TestWithdraw
+test_withd01	jenkin_test00/ttest_02_tixian00.py	/^    def test_withd01(self):$/;"	m	class:TestWithdraw
+test_withd01	testsuits/test_e_tixian.py	/^    def test_withd01(self):$/;"	m	class:TestWithdraw
+test_withd02	jenkin_test00/0test_only.py	/^    def test_withd02(self):$/;"	m	class:TestWithdraw
+test_withd02	jenkin_test00/ttest_02_tixian00.py	/^    def test_withd02(self):$/;"	m	class:TestWithdraw
+test_withd02	testsuits/test_e_tixian.py	/^    def test_withd02(self):$/;"	m	class:TestWithdraw
+test_withd03	jenkin_test00/0test_only.py	/^    def test_withd03(self):$/;"	m	class:TestWithdraw
+test_withd03	jenkin_test00/ttest_02_tixian00.py	/^    def test_withd03(self):$/;"	m	class:TestWithdraw
+test_withd03	testsuits/test_e_tixian.py	/^    def test_withd03(self):$/;"	m	class:TestWithdraw
+test_withd04	jenkin_test00/0test_only.py	/^    def test_withd04(self):$/;"	m	class:TestWithdraw
+test_withd04	jenkin_test00/ttest_02_tixian00.py	/^    def test_withd04(self):$/;"	m	class:TestWithdraw
+test_withd04	testsuits/test_e_tixian.py	/^    def test_withd04(self):$/;"	m	class:TestWithdraw
+test_withd05	jenkin_test00/0test_only.py	/^    def test_withd05(self):$/;"	m	class:TestWithdraw
+test_withd05	jenkin_test00/ttest_02_tixian00.py	/^    def test_withd05(self):$/;"	m	class:TestWithdraw
+test_withd05	testsuits/test_e_tixian.py	/^    def test_withd05(self):$/;"	m	class:TestWithdraw
+test_withd06	jenkin_test00/0test_only.py	/^    def test_withd06(self):$/;"	m	class:TestWithdraw
+test_withd06	jenkin_test00/ttest_02_tixian00.py	/^    def test_withd06(self):$/;"	m	class:TestWithdraw
+test_withd06	testsuits/test_e_tixian.py	/^    def test_withd06(self):$/;"	m	class:TestWithdraw
+test_withd07	jenkin_test00/0test_only.py	/^    def test_withd07(self):$/;"	m	class:TestWithdraw
+test_withd07	jenkin_test00/ttest_02_tixian00.py	/^    def test_withd07(self):$/;"	m	class:TestWithdraw
+test_withd07	testsuits/test_e_tixian.py	/^    def test_withd07(self):$/;"	m	class:TestWithdraw
+test_withd08	jenkin_test00/0test_only.py	/^    def test_withd08(self):$/;"	m	class:TestWithdraw
+test_withd08	jenkin_test00/ttest_02_tixian00.py	/^    def test_withd08(self):$/;"	m	class:TestWithdraw
+test_withd08	testsuits/test_e_tixian.py	/^    def test_withd08(self):$/;"	m	class:TestWithdraw
+test_withd09	jenkin_test00/0test_only.py	/^    def test_withd09(self):$/;"	m	class:TestWithdraw
+test_withd09	jenkin_test00/ttest_02_tixian00.py	/^    def test_withd09(self):$/;"	m	class:TestWithdraw
+test_withd09	testsuits/test_e_tixian.py	/^    def test_withd09(self):$/;"	m	class:TestWithdraw
+test_withd10	jenkin_test00/0test_only.py	/^    def test_withd10(self):$/;"	m	class:TestWithdraw
+test_withd10	jenkin_test00/ttest_02_tixian00.py	/^    def test_withd10(self):$/;"	m	class:TestWithdraw
+test_withd10	testsuits/test_e_tixian.py	/^    def test_withd10(self):$/;"	m	class:TestWithdraw
+test_withd11	jenkin_test00/0test_only.py	/^    def test_withd11(self):$/;"	m	class:TestWithdraw
+test_withd11	jenkin_test00/ttest_02_tixian00.py	/^    def test_withd11(self):$/;"	m	class:TestWithdraw
+test_withd11	testsuits/test_e_tixian.py	/^    def test_withd11(self):$/;"	m	class:TestWithdraw
+test_withd12	jenkin_test00/0test_only.py	/^    def test_withd12(self):$/;"	m	class:TestWithdraw
+test_withd12	jenkin_test00/ttest_02_tixian00.py	/^    def test_withd12(self):$/;"	m	class:TestWithdraw
+test_withd12	testsuits/test_e_tixian.py	/^    def test_withd12(self):$/;"	m	class:TestWithdraw
+test_withd13	jenkin_test00/0test_only.py	/^    def test_withd13(self):$/;"	m	class:TestWithdraw
+test_withd13	jenkin_test00/ttest_02_tixian00.py	/^    def test_withd13(self):$/;"	m	class:TestWithdraw
+test_withd13	testsuits/test_e_tixian.py	/^    def test_withd13(self):$/;"	m	class:TestWithdraw
+test_withd14	jenkin_test00/ttest_02_tixian01.py	/^    def test_withd14(self):$/;"	m	class:TestWithdraw01
+test_withd14	testsuits/test_e_tixian01.py	/^    def test_withd14(self):$/;"	m	class:TestWithdraw01
+test_withd15	jenkin_test00/ttest_02_tixian02.py	/^    def test_withd15(self):$/;"	m	class:TestWithdraw02
+test_withd15	testsuits/test_e_tixian02.py	/^    def test_withd15(self):$/;"	m	class:TestWithdraw02
+time	TestRunner.py	/^import time$/;"	i
+time	TestRunner_reg.py	/^import time$/;"	i
+time	framework/HTMLTestRunner.py	/^import time$/;"	i
+time	framework/base_page.py	/^import time$/;"	i
+time	framework/logger.py	/^import time$/;"	i
+time	jcj/login.py	/^import time$/;"	i
+time	jenkin_test00/0test_only.py	/^import time$/;"	i
+time	jenkin_test00/ptest_01_chongzhi00.py	/^import time $/;"	i
+time	jenkin_test00/ptest_01_zhuce.py	/^import time$/;"	i
+time	jenkin_test00/test_00_login.py	/^import time$/;"	i
+time	jenkin_test00/ttest_02_tixian00.py	/^import time$/;"	i
+time	jenkin_test00/ttest_b_shiming.py	/^import time$/;"	i
+time	jenkin_zhuce/btest_01_shiming.py	/^import time$/;"	i
+time	jenkin_zhuce/test_00_zhuce.py	/^import time$/;"	i
+time	pageobjects/public.py	/^import time $/;"	i
+time	testsuits/TestRunner.py	/^import time$/;"	i
+time	testsuits/test_b_shiming.py	/^import time$/;"	i
+time	testsuits/test_c_chongzhi.py	/^import time $/;"	i
+time	testsuits/test_d_touzi.py	/^import time$/;"	i
+time	testsuits/test_d_touzi00.py	/^import time$/;"	i
+time	testsuits/test_d_touzi01.py	/^import time$/;"	i
+time	testsuits/test_e_tixian.py	/^import time$/;"	i
+time	testsuits/test_login.py	/^import time$/;"	i
+type	framework/base_page.py	/^    def type(self,selector,text):$/;"	m	class:BasePage
+unittest	TestRunner.py	/^import unittest$/;"	i
+unittest	TestRunner_reg.py	/^import unittest$/;"	i
+unittest	framework/HTMLTestRunner.py	/^import unittest$/;"	i
+unittest	jenkin_test00/0test_only.py	/^import unittest$/;"	i
+unittest	jenkin_test00/ptest_01_chongzhi00.py	/^import unittest$/;"	i
+unittest	jenkin_test00/ptest_01_chongzhi01.py	/^import unittest$/;"	i
+unittest	jenkin_test00/ptest_01_zhuce.py	/^import unittest$/;"	i
+unittest	jenkin_test00/test_00_login.py	/^import unittest$/;"	i
+unittest	jenkin_test00/ttest_02_tixian00.py	/^import unittest$/;"	i
+unittest	jenkin_test00/ttest_02_tixian01.py	/^import unittest$/;"	i
+unittest	jenkin_test00/ttest_02_tixian02.py	/^import unittest$/;"	i
+unittest	jenkin_test00/ttest_b_shiming.py	/^import unittest$/;"	i
+unittest	jenkin_zhuce/btest_01_shiming.py	/^import unittest$/;"	i
+unittest	jenkin_zhuce/test_00_zhuce.py	/^import unittest$/;"	i
+unittest	testsuits/TestRunner.py	/^import unittest$/;"	i
+unittest	testsuits/test_b_shiming.py	/^import unittest$/;"	i
+unittest	testsuits/test_c_chongzhi.py	/^import unittest$/;"	i
+unittest	testsuits/test_c_chongzhi01.py	/^import unittest$/;"	i
+unittest	testsuits/test_d_touzi.py	/^import unittest$/;"	i
+unittest	testsuits/test_d_touzi00.py	/^import unittest$/;"	i
+unittest	testsuits/test_d_touzi01.py	/^import unittest$/;"	i
+unittest	testsuits/test_d_touzi02.py	/^import unittest$/;"	i
+unittest	testsuits/test_e_tixian.py	/^import unittest$/;"	i
+unittest	testsuits/test_e_tixian01.py	/^import unittest$/;"	i
+unittest	testsuits/test_e_tixian02.py	/^import unittest$/;"	i
+unittest	testsuits/test_login.py	/^import unittest$/;"	i
+wait	framework/base_page.py	/^    def wait(self,seconds):$/;"	m	class:BasePage
+webdriver	alpha.py	/^from selenium import webdriver$/;"	i
+webdriver	framework/base_page.py	/^from selenium import webdriver$/;"	i
+webdriver	framework/browser_engine.py	/^from selenium import webdriver$/;"	i
+webdriver	jcj/login.py	/^from selenium import webdriver$/;"	i
+write	framework/HTMLTestRunner.py	/^    def write(self, s):$/;"	m	class:OutputRedirector
+writelines	framework/HTMLTestRunner.py	/^    def writelines(self, lines):$/;"	m	class:OutputRedirector

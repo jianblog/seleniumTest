@@ -1,0 +1,18 @@
+{
+  "nav_home": {
+    "type": "xpath",
+    "value": "home"
+  },
+  "nav_touzi": {
+    "type": "text",
+    "value": "我要投资"
+  },
+  "nav_jiekuan": {
+    "type": "text",
+    "value": "我要借款"
+  },
+  "nav_account": {
+    "type": "text",
+    "value": "我的账户"
+  }
+}
