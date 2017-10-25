@@ -7,8 +7,8 @@ from pageobjects.jcj_recharge_page import RechargePage
 from framework.logger import Logger
 
 
-class CasePage(unittest.TestCase):
-    """ 提现功能测试 """
+class CasePage_abn(unittest.TestCase):
+    """ 非实名用户 提现功能测试 """
 
     @classmethod
     def setUpClass(cls):
@@ -26,7 +26,7 @@ class CasePage(unittest.TestCase):
     def test_getcash_redirect(self):
         """ 提现-> 非实名用户跳转 """
         self.recharge_page.to_cash()
-        result = self.realusr_recharge_msg()
+        result = self.recharge_page.get_redirect_msg()
         try:
             assert "存管账户" in result
             print("Test pass ","跳转到实名页面")
