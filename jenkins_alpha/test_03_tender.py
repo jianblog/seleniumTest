@@ -1,6 +1,7 @@
 # coding=utf-8
 import time
 import unittest
+#from framework.base_page import BasePage
 from framework.browser_engine import BrowserEngine
 from pageobjects.testing_data import TestData
 from pageobjects.jcj_tender_page import TenderPage
@@ -8,7 +9,7 @@ from framework.logger import Logger
 
 
 class CasePage(unittest.TestCase):
-    """ 提现功能测试 """
+    """ 投资功能测试 """
 
     @classmethod
     def setUpClass(cls):
@@ -26,15 +27,52 @@ class CasePage(unittest.TestCase):
 
     def test_money_empty(self):
         """ 投资-> 金额为0 """
-        pass
-
+        self.tender_page.to_tender()
+        self.tender_page.select_tender_item()
+        self.tender_page.input_tender_money("")
+        self.tender_page.click_tender_confirm()
+        result = self.tender_page.get_money_warn()
+        try:
+            self.assertEqual("请输入投标金额!",result)
+            print("Test pass，提示信息%s" % result)
+        except Exception as e:
+            self.get_window_img()
+            print("Test Fail: ",result,"Exceptions:", format(e))
+        finally:
+            self.tenter_page.to_account() #进入投资理财页面
+        
     def test_money_little(self):
         """ 投资-> 金额小于50 """
-        pass
-
+        self.tender_page.select_tender_item() #选择标的
+        self.tender_page.input_tender_money("1") #输入投资金额
+        self.tender_page.click_tender_confirm() #确认投资
+        result = self.tender_page.get_money_warn() #错误提示
+        try:
+            self.assertEqual("投标金额不能低于50元!",result)
+            print("Test pass，提示信息%s" % result)
+        except Exception as e:
+            self.get_window_img()
+            print("Test Fail: ",result,"Exceptions:", format(e))
+        finally:
+            self.tenter_page.to_account() #进入投资理财页面
+        
     def test_money_above(self):
         """ 投资-> 金额大于可投金额 """
-        pass
+        self.tender_page.select_tender_item() #选择标的
+        s_money = self.tender_page.get_tender_available() #获取剩余可投金额
+        money = s_money.replace(",","")  # 替换字符串中的内容
+        t_money = float(money) + 1 
+        self.tender_page.input_tender_money(t_money) #输入投资金额
+        result = self.tender_page.get_money_warn() #错误提示
+        try:
+            self.assertIn("您输入的金额大于借款余额!",result)
+            print("Test pass，提示信息%s" % result)
+        except Exception as e:
+            self.get_window_img()
+            print("Test Fail: ",result,"Exceptions:", format(e))
+        finally:
+            self.tenter_page.to_account() #进入投资理财页面
+        
 
     def test_sms_wrong(self):
         """ 投资-> 验证码错误 """
