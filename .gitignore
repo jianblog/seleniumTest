@@ -1,7 +1,10 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+<<<<<<< HEAD
 *$py.class
+=======
+>>>>>>> origin/master
 
 # C extensions
 *.so
@@ -20,7 +23,10 @@ lib64/
 parts/
 sdist/
 var/
+<<<<<<< HEAD
 wheels/
+=======
+>>>>>>> origin/master
 *.egg-info/
 .installed.cfg
 *.egg
@@ -43,8 +49,12 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
+<<<<<<< HEAD
 *.cover
 .hypothesis/
+=======
+*,cover
+>>>>>>> origin/master
 
 # Translations
 *.mo
@@ -52,6 +62,7 @@ coverage.xml
 
 # Django stuff:
 *.log
+<<<<<<< HEAD
 local_settings.py
 
 # Flask stuff:
@@ -60,12 +71,15 @@ instance/
 
 # Scrapy stuff:
 .scrapy
+=======
+>>>>>>> origin/master
 
 # Sphinx documentation
 docs/_build/
 
 # PyBuilder
 target/
+<<<<<<< HEAD
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -99,3 +113,5 @@ ENV/
 
 # mypy
 .mypy_cache/
+=======
+>>>>>>> origin/master
