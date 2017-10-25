@@ -17,7 +17,7 @@ class BrowserEngine(object):
     
     def open_browser(self,url):
         config = configparser.ConfigParser()
-        file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', 'config.ini')
+        file_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'config', 'config.ini')
         logger.info("config file:" + file_path)
         config.read(file_path)
         

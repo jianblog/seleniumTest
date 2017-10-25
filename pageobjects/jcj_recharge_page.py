@@ -93,3 +93,6 @@ class RechargePage(BasePage):
         #element.click()
         self.click(self.map_recharge['button_recharge_confirm'])
         time.sleep(2)
+
+    def get_redirect_msg(self):
+        return self.find_the_element(self.map_recharge['message_recharge_redirect']).text

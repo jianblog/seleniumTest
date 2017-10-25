@@ -10,8 +10,8 @@ from framework.logger import Logger
 logger = Logger(logger = "BrowserEngine").getlog()
 
 
-class ViewRechargePage(unittest.TestCase):
-    """ 充值功能测试 """
+class ViewRechargePage_abn(unittest.TestCase):
+    """ 非实名用户充值功能测试 """
     @classmethod
     def setUpClass(cls):
         browse = BrowserEngine(cls)
@@ -23,18 +23,18 @@ class ViewRechargePage(unittest.TestCase):
         
     @classmethod
     def tearDownClass(cls):
-        #cls.driver.quit()
+        cls.driver.quit()
         pass
 
     def test_recharge_redirect(self):
         """ 充值-> 未实名用户充值跳转 """
 
         self.recharge_page.to_recharge()
-        result = self.realusr_recharge_msg()
+        result = self.recharge_page.get_redirect_msg()
         try:
             assert "存管账户" in result 
-            print("Test pass ","跳转到实名页面")
+            print("Test pass. 跳转到实名页面")
         except Exception as e:
-            print("Test fail ",format(e))
+            print("Test fail ", format(e))
         finally:
             self.recharge_page.to_account()
