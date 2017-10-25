@@ -1,8 +1,8 @@
 # coding=utf-8
 import sys
-#sys.path.append("/data/projects/notebook/autoTest/jingchujie/")
 from framework.HTMLTestRunner import HTMLTestRunner
-#from jenkins_alpha.test_01_recharge import ViewRechargePage
+from jenkins_alpha.test_02_getcash_abn import CasePage_abn
+from jenkins_alpha.test_02_getcash import ViewCashPage
 import os
 import unittest
 import time
@@ -21,13 +21,17 @@ if __name__ == "__main__":
     with open(HtmlFile,'wb') as fp:
 
         suite_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "jenkins_alpha")
-        suite = unittest.TestLoader().discover(suite_path)
+        #suite = unittest.TestLoader().discover(suite_path)
+
+        # makesuite
+        # 执行类中所有测试用例
+        suite = unittest.TestSuite(unittest.makeSuite(ViewCashPage))
 
         # addTest
         #suite = unittest.TestSuite()
-        #suite.addTest(ViewRechargePage('test_verify_wrong'))
+        #suite.addTest(CasePage('test_case_small'))
 
-        #runner = unittest.TextTestRunner()
+        # runner = unittest.TextTestRunner()
         # 初始化一个HTMLTestRunner实例对象，用来生成报告
         runner = HTMLTestRunner(stream=fp, title="京储街项目测试报告", description="用例测试情况")
 

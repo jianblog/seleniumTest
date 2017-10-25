@@ -3,11 +3,11 @@ import time
 import unittest
 from framework.browser_engine import BrowserEngine
 from pageobjects.testing_data import TestData
-from pageobjects.jcj_recharge_page import RechargePage
+from pageobjects.jcj_getcash_page import GetcashPage
 from framework.logger import Logger
 
 
-class CasePage(unittest.TestCase):
+class ViewCashPage(unittest.TestCase):
     """ 提现功能测试 """
 
     @classmethod
@@ -17,7 +17,7 @@ class CasePage(unittest.TestCase):
         time.sleep(1)
 
         cls.test_user = TestData.getRealUser()
-        cls.recharge_page = RechargePage(cls.driver, str(cls.test_user['account']), 'qqq123456')
+        cls.cash_page = GetcashPage(cls.driver, str(cls.test_user['account']), 'qqq123456')
 
     @classmethod
     def tearDownClass(cls):
@@ -25,22 +25,92 @@ class CasePage(unittest.TestCase):
 
     def test_cash_empty(self):
         """ 提现-> 金额为空 """
-        pass
+        self.cash_page.to_cash()
+
+        self.cash_page.input_get_cash("")
+        self.cash_page.click_cash_ready()
+        result = self.cash_page.get_cash_warn()
+        try:
+            self.assertIn("请输入提现金额", result)
+            print("Test Pass. 金额为空")
+        except Exception as e:
+            print("Test Fail, ",format(e))
+        finally:
+            self.cash_page.to_account()
 
     def test_case_small(self):
         """ 提现-> 金额小于3元 """
-        pass
+        self.cash_page.to_cash()
+       
+        self.cash_page.input_get_cash("2")
+        #self.cash_page.click_cash_ready()
+        self.cash_page.click_input_sms1()
+        self.cash_page.click_cash_ready()
+        result = self.cash_page.get_cash_warn()
+
+        try:
+            self.assertIn("提现金额在3元以上", result)
+            print("Test Pass. 金额小于3元")
+        except Exception as e:
+            self.cash_page.get_window_img()
+            print("Test Fail, ",format(e))
+        finally:
+            self.cash_page.to_account()
 
     def test_case_float(self):
         """ 提现-> 金额小数位过多 """
-        pass
+        self.cash_page.to_cash()
+
+        self.cash_page.input_get_cash("102.452")
+        self.cash_page.click_input_sms1()
+        self.cash_page.click_cash_ready()
+        result = self.cash_page.get_cash_warn()
+
+        try:
+            self.assertIn("请输入提现金额", result)
+            print("Test Pass. 金额小数位数过多")
+        except Exception as e:
+            print("Test Fail, ", format(3))
+        finally:
+            self.cash_page.to_account()
 
     def test_cash_char(self):
-        """ 提现-> 金额包含中文字符 """
-        pass
+        """ 提现-> 金额包含非数字字符 """
+        self.cash_page.to_cash()
+
+        self.cash_page.input_get_cash("e")
+        self.cash_page.click_input_sms1()
+        self.cash_page.click_cash_ready()
+        result = self.cash_page.get_cash_warn()
+
+        try:
+            self.assertIn("请输入提现金额", result)
+            print("Test Pass. 金额小数位数过多")
+        except Exception as e:
+            print("Test Fail, ", format(3))
+        finally:
+            self.cash_page.to_account()
+        
 
     def test_cash_all(self):
         """ 提现-> 金额等于账户余额 """
+        self.cash_page.to_cash()
+
+        cash_str = self.cash_page.get_cash_available() 
+        cash_account = cash_str[:-1]
+        self.cash_page.input_get_cash(cash_account)
+        self.cash_page.click_input_sms1()
+        self.cash_page.click_cash_ready()
+        result = self.cash_page.get_cash_warn()
+
+        try:
+            self.assertIn("最多能提现", result)
+            print("Test Pass. 金额等于账户余额")
+        except Exception as e:
+            print("Test Fail, ", format(e))
+        finally:
+            self.cash_page.to_account()
+
         pass
 
     def test_cash_over(self):

@@ -31,7 +31,7 @@ class GetcashPage(BasePage):
         
     def to_account(self):
         self.gotoUrl("http://jingchujie.dev/acct/index.html")
-        time.sleep(2)
+        time.sleep(1)
 
     def to_cash(self):
         self.click(self.map_cash['link_getcash'])
@@ -51,6 +51,8 @@ class GetcashPage(BasePage):
 
     def click_cash_sms1(self):
         self.click(self.map_cash['button_get_sms1'])
+    def click_input_sms1(self):
+        self.click(self.map_cash['input_sms_code1'])
 
     def input_verify_sms1(self, code):
         self.typeIn(self.map_cash['input_sms_code1'], code)

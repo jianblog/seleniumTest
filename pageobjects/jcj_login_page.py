@@ -26,7 +26,7 @@ class LoginPage(BasePage):
     def to_login(self):
         element = self.find_the_element(self.map_top['top_login'])
         element.click()
-        self.sleep(2)
+        self.sleep(1)
 
     def logout(self):
         element = self.find_the_element(self.map_top['top_logout'])
@@ -45,7 +45,7 @@ class LoginPage(BasePage):
     def click_login(self):
         element = self.find_the_element(self.map_login['button_login'])
         element.click()
-        self.sleep(2)
+        self.sleep(1)
 
     def success_login_message(self):
         element = self.find_the_element(self.map_top['banner_message_login'])
