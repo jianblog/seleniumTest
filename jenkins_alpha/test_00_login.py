@@ -11,7 +11,7 @@ logger = Logger(logger = "BrowserEngine").getlog()
 
 
 class ViewLoginPage(unittest.TestCase):
-    """     登陆功能测试 """
+    """     登录功能测试 """
     @classmethod
     def setUpClass(cls):
         browse = BrowserEngine(cls)
