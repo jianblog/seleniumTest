@@ -3,7 +3,7 @@ import time
 import unittest
 from framework.browser_engine import BrowserEngine
 from pageobjects.testing_data import TestData
-from pageobjects.jcj_recharge_page import RechargePage
+from pageobjects.jcj_getcash_page import GetcashPage
 from framework.logger import Logger
 
 
@@ -17,7 +17,7 @@ class CasePage_abn(unittest.TestCase):
         time.sleep(1)
 
         cls.test_user = TestData.getRegUser()
-        cls.recharge_page = RechargePage(cls.driver, str(cls.test_user['account']), 'qqq123456')
+        cls.cash_page = GetcashPage(cls.driver, str(cls.test_user['account']), 'qqq123456')
 
     @classmethod
     def tearDownClass(cls):
@@ -25,12 +25,12 @@ class CasePage_abn(unittest.TestCase):
 
     def test_getcash_redirect(self):
         """ 提现-> 非实名用户跳转 """
-        self.recharge_page.to_cash()
-        result = self.recharge_page.get_redirect_msg()
+        self.cash_page.to_cash()
+        result = self.cash_page.get_redirect_msg()
         try:
             assert "存管账户" in result
             print("Test pass ","跳转到实名页面")
         except Exception as e:
             print("Test fail ",format(e))
         finally:
-            self.recharge_page.to_account()
+            self.cash_page.to_account()

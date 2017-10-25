@@ -20,7 +20,7 @@
     "value": ".//*[@id='cashmsg']"
   },
   "input_sms_code1": {
-    "输入框-短信验证码",
+    "comment": "输入框-短信验证码",
     "type": "xpath",
     "value": ".//*[@id='tab']/div/div[1]/table/tbody/tr[7]/td[2]/input[2]"
   },              
@@ -58,10 +58,15 @@
     "comment": "按钮-提现确认",
     "type": "xpath",
     "value": ".//*[@id='queren']/a"
-  }
+  },
   "message_getcash_ok": {
     "comment": "消息-提现成功",
     "type": "xpath",
     "value": ".//*[@id='result']"
+  },
+  "message_getcash_redirect": {
+    "comment": "未实名用户重定向",
+    "type": "xpath",
+    "value": ".//*[@id='register']/section/div[1]/div/div/h3"
   }
 }

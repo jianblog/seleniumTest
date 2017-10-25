@@ -14,7 +14,7 @@ import os
 class GetcashPage(BasePage):
 
     def __init__(self, driver, account, password):
-        super(RechargePage, self).__init__(driver)
+        super(GetcashPage, self).__init__(driver)
         with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "elements_nav.json"),"r", encoding="utf-8") as f:
             self.map_nav = json.load(f)
         with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "elements_cash.json"),"r", encoding="utf-8") as f:
@@ -73,5 +73,8 @@ class GetcashPage(BasePage):
     def input_verify_sms2(self, code):
         self.typeIn(self.map_cash['input_sms_code2'], code)
 
-    def click cash_confirm(self):
+    def click_cash_confirm(self):
         self.click(self.map_cash['button_cash_confirm'])
+
+    def get_redirect_msg(self):
+        return self.find_the_element(self.map_cash['message_getcash_redirect']).text
