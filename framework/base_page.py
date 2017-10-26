@@ -4,7 +4,9 @@ from selenium.common.exceptions import NoSuchElementException
 import os.path
 from framework.logger import Logger
 from selenium import webdriver
-
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
 
 # create a logger instance  
 logger =Logger(logger="BasePage").getlog()
@@ -48,6 +50,7 @@ class BasePage(object):
 
     def getAlertMsg(self):
         try:
+            time.sleep(1)
             message = self.driver.switch_to_alert().text
             self.driver.switch_to_alert().accept()
             return message
@@ -56,7 +59,7 @@ class BasePage(object):
 
     def wait(self, second):
         self.driver.implicitly_wait(second)
-    
+
     # 保存图片
     def get_window_img(self):
         """ 
@@ -76,6 +79,9 @@ class BasePage(object):
         if selector['type'] == 'text':
             return self.driver.find_element_by_link_text(selector['value'])
         if selector['type'] == 'xpath':
+            # 显性等待
+            locator = (By.XPATH, selector['value'])
+            WebDriverWait(self.driver, 10, 0.5).until(EC.presence_of_element_located(locator))
             return self.driver.find_element_by_xpath(selector['value'])
         if selector['type'] == 'name':
             return self.driver.find_element_by_name(selector['value'])

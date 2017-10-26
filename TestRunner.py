@@ -25,15 +25,15 @@ if __name__ == "__main__":
 
         # makesuite
         # 执行类中所有测试用例
-        suite = unittest.TestSuite(unittest.makeSuite(ViewCashPage))
+        #suite = unittest.TestSuite(unittest.makeSuite(ViewCashPage))
 
         # addTest
-        #suite = unittest.TestSuite()
-        #suite.addTest(CasePage('test_case_small'))
+        suite = unittest.TestSuite()
+        suite.addTest(ViewCashPage('test_sms2_wrong'))
 
-        # runner = unittest.TextTestRunner()
+        runner = unittest.TextTestRunner()
         # 初始化一个HTMLTestRunner实例对象，用来生成报告
-        runner = HTMLTestRunner(stream=fp, title="京储街项目测试报告", description="用例测试情况")
+        #runner = HTMLTestRunner(stream=fp, title="京储街项目测试报告", description="用例测试情况")
 
         # 开始执行测试套件,test
         runner.run(suite)

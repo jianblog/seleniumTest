@@ -5,8 +5,6 @@ from framework.browser_engine import BrowserEngine
 from framework.base_page import BasePage
 from pageobjects.testing_data import TestData
 from pageobjects.jcj_login_page import LoginPage
-#from selenium.webdriver.support.select import Select
-import unittest
 import time
 import json
 import os
@@ -40,7 +38,7 @@ class GetcashPage(BasePage):
 
     def input_get_cash(self, money):
         self.typeIn(self.map_cash['input_getcash_money'], money)
-        self.typeIn(self.map_cash['input_getcash_money'], Keys.TAB) 
+        # self.typeIn(self.map_cash['input_getcash_money'], Keys.TAB)
         time.sleep(1)
 
     def get_cash_available(self):

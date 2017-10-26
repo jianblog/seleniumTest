@@ -57,7 +57,7 @@
   "button_get_sms2": {
     "comment": "按钮-获取验证码",
     "type": "xpath",
-    "value": ".//*[@id='web500003_yzm']"
+    "value": ".//*[@id='web500003_smsBtn']"
   },
   "button_cash_confirm": {
     "comment": "按钮-提现确认",
