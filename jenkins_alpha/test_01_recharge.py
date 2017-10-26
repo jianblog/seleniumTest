@@ -177,7 +177,7 @@ class ViewRechargePage(unittest.TestCase):
         self.recharge_page.input_recharge_phone(self.test_user['account'])
         self.recharge_page.click_get_sms()
         time.sleep(5)
-        alert = self.recharge_page.getAlertMsg()
+        alert = self.recharge_page.get_alertmsg()
         self.recharge_page.input_verify_code("0000")
         self.recharge_page.select_protocol()
 

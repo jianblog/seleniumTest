@@ -1,5 +1,6 @@
 # coding = utf-8
 
+from selenium.webdriver.common.keys import Keys
 from framework.browser_engine import BrowserEngine
 from framework.base_page import BasePage
 from pageobjects.testing_data import TestData
@@ -39,6 +40,8 @@ class GetcashPage(BasePage):
 
     def input_get_cash(self, money):
         self.typeIn(self.map_cash['input_getcash_money'], money)
+        self.typeIn(self.map_cash['input_getcash_money'], Keys.TAB) 
+        time.sleep(1)
 
     def get_cash_available(self):
         element = self.find_the_element(self.map_cash['text_cash_available'])
@@ -51,22 +54,26 @@ class GetcashPage(BasePage):
 
     def click_cash_sms1(self):
         self.click(self.map_cash['button_get_sms1'])
+
     def click_input_sms1(self):
         self.click(self.map_cash['input_sms_code1'])
 
     def input_verify_sms1(self, code):
         self.typeIn(self.map_cash['input_sms_code1'], code)
 
-    def get_verify_message1(self):
-        element = self.find_the_element(self.map_cash['message_verify_sms'])
+    def get_sms1_warn(self):
+        element = self.find_the_element(self.map_cash['message_sms_warn'])
         return element.text
 
+    def click_cash_textarea(self):
+        self.click(self.map_cash['textarea_cash_info'])
+
     def click_cash_ready(self):
-        self.click(self.map_cash['button_get_cash'])
+        self.click(self.map_cash['button_cash_ready'])
         time.sleep(2)
 
     # next page
-    def input_zhifu_code(self, code):
+    def input_pay_code(self, code):
         self.typeIn(self.map_cash['input_pay_code'], code)
 
     def click_cash_sms2(self):
@@ -76,6 +83,8 @@ class GetcashPage(BasePage):
         self.typeIn(self.map_cash['input_sms_code2'], code)
 
     def click_cash_confirm(self):
+        if not self.find_the_element(self.map_cash['button_cash_confirm']):
+            print("no----confirm")
         self.click(self.map_cash['button_cash_confirm'])
 
     def get_redirect_msg(self):

@@ -53,6 +53,7 @@ class BasePage(object):
             return message
         except Exception as e:
             logger.error("No Alert windows pops")
+
     def wait(self, second):
         self.driver.implicitly_wait(second)
     

@@ -96,3 +96,4 @@ class RechargePage(BasePage):
 
     def get_redirect_msg(self):
         return self.find_the_element(self.map_recharge['message_recharge_redirect']).text
+

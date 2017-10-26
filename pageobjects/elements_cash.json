@@ -29,15 +29,20 @@
     "type": "xpath",
     "value": ".//*[@id='verify_2']"
   },
-  "message_verify_sms": {
+  "message_sms_warn": {
     "comment": "短信验证码验证消息",
     "type": "xpath",
     "value": ".//*[@id='tab']/div/div[1]/table/tbody/tr[7]/td[2]/p"
   },
-  "button_get_cash": {
-    "comment": "按钮-提现",
+  "textarea_cash_info": {
+    "comment": "文本-提现块",
     "type": "xpath",
     "value": ".//*[@id='tab']/div/div[1]"
+  },
+  "button_cash_ready": {
+    "comment": "按钮-提现",
+    "type": "xpath",
+    "value": ".//*[@id='tab']/div/div[1]/a"
   },
   "input_pay_code": {
     "comment": "输入框-支付密码",
