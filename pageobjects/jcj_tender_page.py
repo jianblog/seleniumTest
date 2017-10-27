@@ -14,7 +14,7 @@ import os
 class TenderPage(BasePage):
 
     def __init__(self, driver, account, password):
-        super(RechargePage, self).__init__(driver)
+        super(TenderPage, self).__init__(driver)
         with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "elements_nav.json"),"r", encoding="utf-8") as f:
             self.map_nav = json.load(f)
         with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "elements_tender.json"),"r", encoding="utf-8") as f:
@@ -54,14 +54,17 @@ class TenderPage(BasePage):
 
     def input_verify_sms(self, code):
         self.typeIn(self.map_tender['input_sms_code'], code)
+        time.sleep(1)
 
     def get_sms_warn(self):
         return self.find_the_element(self.map_tender['message_sms_verify']).text
 
     def click_tender_confirm(self):
         self.click(self.map_tender['button_tender_confirm'])
+        time.sleep(1)
 
     def use_coupons_cash(self):
+        self.click(self.map_tender['list_coupons'])
         self.click(self.map_tender['list_coupons'])
         element = self.find_the_element(self.map_tender['coupons_cash'])
         element[1].click()

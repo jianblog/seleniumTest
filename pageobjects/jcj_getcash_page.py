@@ -65,6 +65,7 @@ class GetcashPage(BasePage):
 
     def click_cash_textarea(self):
         self.click(self.map_cash['textarea_cash_info'])
+        time.sleep(1)
 
     def click_cash_ready(self):
         self.click(self.map_cash['button_cash_ready'])

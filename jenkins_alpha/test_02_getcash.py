@@ -43,7 +43,7 @@ class ViewCashPage(unittest.TestCase):
         """ 提现-> 金额小于3元 """
         self.cash_page.to_cash()
        
-        self.cash_page.input_get_cash("2")
+        self.cash_page.input_get_cash("1.5")
         self.cash_page.click_cash_textarea()
         result = self.cash_page.get_cash_warn()
 
@@ -60,8 +60,10 @@ class ViewCashPage(unittest.TestCase):
         """ 提现-> 金额小数位过多 """
         self.cash_page.to_cash()
 
-        self.cash_page.input_get_cash("102.4532")
-        self.cash_page.input_verify_sms1("1234")
+        self.cash_page.input_get_cash("102.452")
+        self.cash_page.click_cash_textarea()
+        time.sleep(1)
+        self.cash_page.click_cash_ready()
         result = self.cash_page.get_cash_warn()
 
         try:
@@ -84,7 +86,7 @@ class ViewCashPage(unittest.TestCase):
 
         try:
             self.assertIn("请输入提现金额", result)
-            print("Test Pass. 金额小数位数过多")
+            print("Test Pass. 金额含其他字符")
         except Exception as e:
             print("Test Fail, test_case_char", format(3))
         finally:
@@ -265,7 +267,6 @@ class ViewCashPage(unittest.TestCase):
         #self.cash_page.wait(5)
         #time.sleep(3)
         result = self.cash_page.getAlertMsg()
-        print("result:", result)
 
         try:
             self.assertIn("短信验证码错误", result)

@@ -37,12 +37,14 @@
   "coupons_cash": {
     "comment": "现金券列表",
     "type": "name",
-    "value": "chit"
+    "value": "chit",
+    "list": "true"
   },
   "coupons_rate": {
     "comment": "加息劵",
     "type": "name",
-    "value": "rate"
+    "value": "rate",
+    "list": "true"
   },
   "button_coupons_confirm": {
     "comment": "按钮-确认优惠券",
@@ -59,7 +61,7 @@
     "type": "xpath",
     "value": ".//*[@id='middleCenter']/section/div/div[2]/div[2]/div[1]/div[3]/input"
   },
-  "message_sms_verify"; {
+  "message_sms_verify": {
     "comment": "验证信息",
     "type": "xpath",
     "value": ".//*[@id='middleCenter']/section/div/div[2]/div[2]/div[1]/div[3]/div/p"

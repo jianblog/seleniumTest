@@ -84,7 +84,10 @@ class BasePage(object):
             WebDriverWait(self.driver, 10, 0.5).until(EC.presence_of_element_located(locator))
             return self.driver.find_element_by_xpath(selector['value'])
         if selector['type'] == 'name':
-            return self.driver.find_element_by_name(selector['value'])
+            if 'list' in selector:
+                return self.driver.find_elements_by_name(selector['value'])
+            else:
+                return self.driver.find_element_by_name(selector['value'])
 
     
     # 输入
