@@ -63,13 +63,12 @@ class ViewTenderPage(unittest.TestCase):
         s_money = self.tender_page.get_tender_available() #获取剩余可投金额
         money = s_money.replace(",","")  # 替换字符串中的内容
         t_money = str(float(money) + 1.0) 
-        print("t_money:", t_money)
         self.tender_page.input_tender_money(t_money) #输入投资金额
         self.tender_page.click_tender_confirm()
         result = self.tender_page.get_money_warn() #错误提示
         try:
             self.assertIn("您输入的金额大于借款余额",result)
-            print("Test pass，金额大于可投金额")
+            print("Test pass. test_money_more")
         except Exception as e:
             self.tender_page.get_window_img()
             print("Test Fail, test_money_more. ", format(e))

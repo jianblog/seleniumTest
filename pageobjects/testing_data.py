@@ -83,7 +83,7 @@ class TestData(object):
             cn.close()
 
     @staticmethod
-    def getFreshUser():
+    def getNewUser():
         sql = "select account, realname, idnum, cardnum from test_jcj_user where type is null  order by rand() limit 2"
         return TestData.__dbQuery(sql)
 

@@ -97,7 +97,6 @@ class BasePage(object):
         el.clear()
         try:
             el.send_keys(text)
-            logger.info("Had type \' %s \' in inputBox" % text)
         except NameError as e:
             logger.error("Failed to type in input box with %s" % e)
             self.get_windows_img()
