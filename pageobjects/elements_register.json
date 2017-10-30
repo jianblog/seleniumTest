@@ -1,0 +1,42 @@
+{
+  "link_register": {
+    "comment": "注册领红包",
+    "type": "text",
+    "value": "注册领红包"
+  },
+  "input_reg_phone": {
+    "comment": "注册手机号",
+    "type": "xpath",
+    "value": "//*[@id='userName']"
+  },
+  "input_reg_password": {
+    "comment": "密码",
+    "type": "xpath",
+    "value": "//*[@id='password']"
+  },
+  "button_get_sms": {
+    "comment": "获取验证码",
+    "type": "xpath",
+    "value": "html/body/div[2]/div[1]/div/div[3]/span"
+  },
+  "input_reg_sms": {
+    "coment": "输入验证码",
+    "type": "xpath",
+    "value": "//*[@id='msgCode']"
+  },
+  "check_reg_protocol": {
+    "comment": "注册协议",
+    "type": "xpath",
+    "value": "//*[@id='check']"
+  },
+  "button_reg_confirm": {
+    "comment": "注册按钮",
+    "type": "xpath",
+    "value": ".//*[@id='subReg']"
+  },
+  "text_reg_ok": {
+    "comment": "注册成功消息",
+    "type": "xpath",
+    "value": ".//*[@id='register']/section/div[1]/div/div/h3"
+  }
+}
