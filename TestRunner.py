@@ -1,6 +1,6 @@
 # coding=utf-8
 import sys
-#sys.path.append("/data/projects/notebook/autoTest/jingchujie/")
+#sys.path.append("/data/projects/notebook/autoTest/jcj/")
 from framework.HTMLTestRunner import HTMLTestRunner
 #from jenkins_alpha.test_01_recharge import ViewRechargePage
 import os
@@ -29,7 +29,7 @@ if __name__ == "__main__":
 
         #runner = unittest.TextTestRunner()
         # 初始化一个HTMLTestRunner实例对象，用来生成报告
-        runner = HTMLTestRunner(stream=fp, title="京储街项目测试报告", description="用例测试情况")
+        runner = HTMLTestRunner(stream=fp, title="项目测试报告", description="用例测试情况")
 
         # 开始执行测试套件
         runner.run(suite)
